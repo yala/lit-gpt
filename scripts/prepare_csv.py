@@ -22,7 +22,7 @@ from lit_gpt.utils import CLI
 def prepare(
     csv_path: Path,
     destination_path: Path = Path("data/csv"),
-    checkpoint_dir: Path = Path("checkpoints/stabilityai/stablelm-base-alpha-3b"),
+    checkpoint_dir: Path = Path("checkpoints/mistralai/Mistral-7B-Instruct-v0.2/"),
     test_split_fraction: float = 0.1,
     seed: int = 42,
     mask_inputs: bool = False,
